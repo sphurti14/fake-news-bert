@@ -77,6 +77,10 @@ Steps:
 
 ---
 
+## 🌐 Live Demo
+
+https://fake-news-bert-d8ff6x9hvt7gqw3p63lmhx.streamlit.app/
+
 ## 📈 Example Prediction
 
 Input:"Breaking news: Market crashes due to global crisis"

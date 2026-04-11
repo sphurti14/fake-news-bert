@@ -1,3 +1,4 @@
+from src.utils import clean_text
 import streamlit as st
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
@@ -18,6 +19,7 @@ tokenizer, model = load_model()
 def predict(text):
     model.eval()
 
+    text = clean_text(text)
     inputs = tokenizer(
         text,
         return_tensors="pt",
